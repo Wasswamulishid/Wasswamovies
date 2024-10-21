@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+
+}
+body{
+    color: white;
+    background-color: black;
+}
+.head{
+    display: flex;
+    background-color: orchid;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+    
+    margin-right: 20px;
+}
+
+#logo{
+     color: black;
+     font-family:Arial, Helvetica, sans-serif;
+    
+     border-radius: 40%;
+     text-align: center;
+     padding: 10px;
+     margin-top: 15px;
+     font-weight: 800;
+}
+#list{
+    padding: 10px;
+}
+.margin{
+    margin: 100px;
+}
+.head ul{
+    justify-content: space-around;
+    float: right;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 4px;
+    margin: 15px 5px;   
+}
+ul li a{
+    text-decoration: none;   
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.margin{
+    position: relative;
+    margin-top: 60px;
+}
+.flex-image{
+    display: flex;
+    padding: 5px;
+    margin: 4px;
+    justify-content: space-around;
+}
+.extend{
+    margin-left: 60px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.top-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.circle{
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.makati{
+    margin-top: 70px;
+    margin-right: 60px;
+}
+.watch{
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: orchid;
+}
+.col{
+    width: 33.33%;
+    float: left;
+}
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+.col a{
+    text-decoration: none;
+    color: purple;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+@media screen and (max-width:480px){
+    .margin{
+        margin:50px;
+    }
+    .flex-image{
+    display: inline;
+    padding: 2px;
+   margin:2px;
+    justify-content: space-around;
+}
+.flex-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+   
+}
+.flex-image{
+    width:auto;
+    /* max-width: 200px; */
+    height: auto;
+}
+.top-flex{
+    display:flex;
+    padding:10px;
+}
+.top-flex img{
+    width:100px;
+    height:100px;
+}
+.extend{
+    font-size:10px;
+    padding:0px;
+    margin-left:130px;
+    text-align: center;
+}
+.watch{
+    padding:0px;
+    font-size:10px;
+}
+.circle{
+    margin-left:10px;
+    font-size:4px;
+}
+makati p{
+    font-size:5px;
+}
+.makati{
+    margin:0px;
+  
+}
+}
+.foot a{
+    color: gray;
+    text-decoration: none;
+}
+.foot a:hover{
+    color: blue;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center2{
+    text-align: center;
+}
+.watch a{
+    text-decoration: none;
+    color: black;
+}
